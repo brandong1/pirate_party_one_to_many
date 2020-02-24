@@ -19,4 +19,8 @@ class Ship
         end
     end
 
+    def new_pirate(name, age, port)
+        Pirate.new(name, age, self, port)
+    end
+
 end
